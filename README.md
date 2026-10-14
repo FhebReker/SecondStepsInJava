@@ -6,7 +6,6 @@ This repository contains seven major Java assignments that progressively develop
 ### Technologies
 - Java
 - Object-Oriented Programming (OOP)
-- HSA2 Graphics Library
 - File I/O
 - Random Access Files
 - Arrays and Array Processing
@@ -16,6 +15,8 @@ This repository contains seven major Java assignments that progressively develop
 - Data Structures
 - Algorithm Analysis
 - Modular Programming
+- Java AWT
+- HSA2 Graphics Library
 
 ---
 
@@ -129,7 +130,7 @@ A collection of recursive programs that solve various computational problems usi
 ---
 
 ## Assignment 5: Graphics and Animation
-A graphical screensaver suite developed using the HSA2 Graphics Library. The program cycles through multiple animated scenes and visual simulations.
+A graphical screensaver suite developed in Java using the HSA2 Graphics Library. The program cycles through multiple animated scenes and visual simulations that demonstrate real-time graphics rendering and animation concepts.
 
 ### Features
 - Animated mandala generator
@@ -139,6 +140,7 @@ A graphical screensaver suite developed using the HSA2 Graphics Library. The pro
 - Collision detection
 - Dynamic color transitions
 - Procedural visual effects
+- Multi-scene animation system
 
 ### Skills Demonstrated
 - Graphics Programming
@@ -148,15 +150,15 @@ A graphical screensaver suite developed using the HSA2 Graphics Library. The pro
 - Event-Driven Programming
 - Object-Oriented Design
 - Visual Simulation Development
+- Custom Graphics Library Usage
 
 ### Files
 - `Interface.java`
 
-### Technologies Used
-- HSA2 GraphicsConsole
+### Libraries and Technologies
 - Java AWT
-- Custom Graphics Library
-- Animation Framework
+- HSA2 Graphics Library
+- GraphicsConsole Framework
 
 ---
 
@@ -212,37 +214,6 @@ A text-analysis application that reads files into a Binary Search Tree and perfo
 ### Files
 - `rootInterface.java`
 - `liberty.txt`
-
----
-
-## Supporting Library: HSA2 Graphics Framework
-A custom Java framework used throughout graphical assignments to provide graphics rendering, animation support, user input handling, and file utilities.
-
-### Features
-- Graphics console rendering
-- Shape drawing utilities
-- Animation support
-- Keyboard input handling
-- Mouse event handling
-- Dialog windows
-- File reading and writing utilities
-
-### Skills Demonstrated
-- Graphics Framework Integration
-- Event Handling
-- GUI Systems
-- File Utilities
-- Animation Architecture
-- Software Library Usage
-
-### Files
-- `GraphicsConsole.java`
-- `ConsoleCanvas.java`
-- `TextInputFile.java`
-- `TextOutputFile.java`
-- `Message.java`
-- `FatalError.java`
-- `CloseableDialog.java`
 
 ---
 
